@@ -32,7 +32,6 @@ pub enum CreateCommands {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Config {
-    pub src_dir: String,
     pub db_name: String,
     pub db_host: String,
     pub db_port: u16,

@@ -25,7 +25,6 @@ pub fn parse_and_match_cli() {
 
 fn create_config() {
     let config = Config {
-        src_dir: "src".to_string(),
         db_name: "".to_string(),
         db_host: "".to_string(),
         db_port: 5432,
